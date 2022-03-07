@@ -6,10 +6,13 @@
 
 ## 1.普通网站食用教程
 **首先确保您的网站是Cloudflare CNAME接入，若不是，可直接跳过该部分**
+
 从我们的列表中选择出一个您觉得速度和稳定性都相对较好的（转发0.0.0.0:443的不能食用，请重新选择）。
 然后打开您的网站域名解析后台，选择到您用于建站的域名，将原有的解析结果更换为A类型+您所选的IP。
 *下面以阿里云解析做例子:*
+
 [![brGs7q.png](https://s1.ax1x.com/2022/03/06/brGs7q.png)](https://imgtu.com/i/brGs7q)
+
 更改完解析后，通常您的站已经可以访问了，并且速度很快。
 
 
@@ -18,9 +21,12 @@
 
 ## 2.基于HOST/SNI伪装的代理软件
 **关于节点套Cloudflare可以先参考这个视频 https://www.youtube.com/watch?v=80rBGZWYlxw**
+
 如果您按照上述视频套完了Cloudflare,且测试没问题，那么可以进行下一步。
 *打开您的代理软件，这里使用V2rayN演示:*
+
 [![brNuVA.png](https://s1.ax1x.com/2022/03/06/brNuVA.png)](https://imgtu.com/i/brNuVA)
+
 不出意外，改完之后您的代理应该已经能跑起来了。
 
 ----------
